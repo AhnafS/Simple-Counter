@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#header {
+    font-size: 5em;
+    margin: 1vh;
+}
+
+.count {
+    font-size: 5em;
+    margin: 2vh;
+}
+
+.buttons {
+    margin: 1vh;
+}
+
+.btn {
+    border-radius: 1em;
+    height: 3em;
+    width: 8em;
+    margin-left: 1vh;
+    font-size: 1em;
+}
+.btn:hover{
+    background-color: rgb(26, 24, 24);
+    color:aliceblue;
+}
